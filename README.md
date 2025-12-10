@@ -1,38 +1,54 @@
+Como rodar o projeto
+Passo 1: Clone o repositório usando a URL do Git
+git clone <SUA_URL_DO_GIT>
 
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Passo 2: Acesse o diretório do projeto
+cd <NOME_DO_SEU_PROJETO>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+Passo 3: Instale as dependências necessárias
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Passo 4: Inicie o servidor de desenvolvimento
+
+(Com recarregamento automático e pré-visualização instantânea)
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+✏️ Editando Arquivos Diretamente pelo GitHub
+Editar um arquivo manualmente
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Navegue até o arquivo que deseja alterar.
 
-**Use GitHub Codespaces**
+Clique no ícone de editar (lápis) no canto superior direito.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Faça suas alterações.
 
-## What technologies are used for this project?
+Confirme o commit para salvar na branch desejada.
 
-This project is built with:
+💻 Usando o GitHub Codespaces
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Acesse a página principal do repositório.
 
+Clique no botão "Code" (verde).
+
+Vá até a aba "Codespaces".
+
+Clique em "New codespace" para criar um novo ambiente.
+
+Edite e execute seus arquivos diretamente no Codespaces.
+
+Depois finalize com commit e push.
+
+🛠️ Tecnologias utilizadas neste projeto
+
+Este projeto foi desenvolvido utilizando:
+
+Vite
+
+TypeScript
+
+React
+
+shadcn/ui
+
+Tailwind CSS
